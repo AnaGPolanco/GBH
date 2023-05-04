@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200;1,300;1,400&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    text-transform: none;
+    text-decoration: none;
+    outline: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ 
+header {
+    width: 100%;
+    align-items: center;
+    justify-content:  initial;  
+    z-index: 1000;
+    transition: .2s;
+    
+}
+
+header .logo{
+   margin: 10px; 
+   position: fixed;
+   margin-left: 0px;
+   
+   
+    
+     
+}
+
+header .navbarOne {
+    position: fixed; 
+    background-color: #730196;
+    
+    height: 70px;
+    position: relative; 
+}
+
+header .navbarOne ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    padding: 20px;
+}
+
+header .navbarOne ul li {
+    margin: 0 2rem;
+}
+
+header .navbarOne ul li a {
+    font-size: 20px;
+    font-weight: bold;
+    color: #fffefe;
+    transition: .2s;
+    padding: 5px 10px;
+}
+
+
+header .btnOne {
+    font-size: 15px;
+    height: 30px;
+    width: 80px;
+    border-radius: 50px;
+    background: #fff200;
+   
+    font-weight: 500;
+    color: #000000;
+    
+    cursor: pointer;
+    transition: .2s;
+     
+}
+header .btnOne h3{
+    text-transform: uppercase;
+    margin: 3px 3px;
+     
+}
+header .sign{
+    color: #fff;
+    margin: 10px;
+}
+
+ 
+
+ 
+
+
+ 
+header .navbarTwo {
+     
+    background-color: #400053;
+    height: 70px;
+    position: relative; 
+}
+
+header .navbarTwo ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    padding: 20px;
+}
+
+header .navbarTwo ul li {
+    margin: 0 2rem;
+}
+
+header .navbarTwo ul li a {
+    font-size: 18px;
+    font-weight: bold;
+    color: #fffefe;
+    transition: .2s;
+    padding: 5px 10px;
+}
+
+
+header form{
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  
+   
+/*main */
+
+main h1{
+    text-align: center;
+    font-weight: 700;
+    padding: 20px;
+    font-size: 50px;
+
+}
+
+.newsLine {
+}
+
+
+main .image{
+    display: flex;
+    
+    justify-content: center;
+    list-style: none;
+    padding: 50px;
+}
+
+
+
+
+ 
+/*/
+ .container .icon{
+    position:fixed;
+    left: 30px;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+ }
+ 
+ .container .icon .search{
+    font-size: 21px;
+
+ }
+/*/
+
+
+
+
+ 
+.container {     
+    margin: 40px;
+    text-decoration: none;
+    float: right;
+    padding: 30px;
+    position: relative;
+    justify-content:  initial;
+    margin-top: -600px;
+     
+ 
+}
+ 
+.container  h2 {
+    color: #ffffff;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #d93e3e;
+    text-align: left;
+    text-transform: uppercase;
+    
+
+}
+
+.container ul{
+
+
+}
+
+.container li h3{
+    font-size: 20px;
+    color: #040101;
+    padding: 0 1rem;
+    margin: 10px;
+
+
+}

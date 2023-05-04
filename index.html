@@ -5,27 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GBH</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <section class="navbar">
-            <img width="100px" src="image/download.png" alt="logo">
+        <section class="navbarOne">
+            <img class="logo" width="100px" src="image/download.png" alt="logo">
+
             <ul>
                 <li><a href="#">Programs</a></li>
                 <li><a href="#">News</a></li>
                 <li><a href="#">Arts & Culture</a></li>
                 <li><a href="#">Kids</a></li>
                 <li><a href="#">Support GBH</a></li>
+
+                <a href="#" class="btnOne">
+                    <h3 class="donate">donate</h3>
+                </a>
+
+                <form class="sign"> sign/register</form>
                 
             </ul>
-            <a href="#" class="btn">
-                <h3>donate</h3>
-            </a>
-            <form action="sign"> sign/register</form>
-
+           
+ 
         </section>
 
-        <nav class="navbar 2">
+
+
+        
+        <section class="navbarTwo">
             <ul>
                 <img src="#" alt="">
                 
@@ -33,35 +41,48 @@
                 <li><a href="#">Schedule</a></li>
                 <li><a href="#">Events</a></li>
                 <li><a href="#" >BPL Studio</a></li>
-            </ul>
-            <div class="fas fa-bars"></div>
-            <form action="" class="search-bar">
-                <input type="text" placeholder="search" name="q">
-                <button type="submit"><img src="img/search.png" alt=""></button>
-            </form>
-        </nav>
+
+                <form action="search" method="get">
+                    <input type="text" name="q" placeholder="Search...">
+                </form>
+            </ul>  
+
+          
+ 
+        </section>
     </header>
 
+
+    
     <main>
         <h1>GBH NEWS</h1>
-
-        <img src="image/cute.png" width="400px"  alt="">
+        <hr class="newsLine">
+        <img class="image" src="image/cute.png" width="1000px"  alt="">
     </main>
-    <section class="top news">
-        <ul>
-            <img src="#" alt="">
+
+
+
+    
+    <aside class="container">
+         
+        <h2 class="topNews">Top News</h2>
+       
+        <ul>    
+            <li><a href="#">
+                <h3>Lorem, ipsum dolor sit amet consectetur <br> adipisicing elit. Suscipit omnis possimus <br> rsadipisci, illum.</h3> </a></li>
+                <hr> 
+            <li><a href="#">
+                <h3>Lorem, ipsum dolor sit amet consectetur <br> adipisicing elit. Suscipit omnis possimus <br> rsadipisci, illum.</h3> </a></li>
+                <hr> 
+            <li><a href="#">
+                <h3>Lorem, ipsum dolor sit amet consectetur <br> adipisicing elit. Suscipit omnis possimus <br> rsadipisci, illum.</h3> </a></li>
+                <hr> 
+            <li><a href="#">
+                <h3>Lorem, ipsum dolor sit amet consectetur <br> adipisicing elit. Suscipit omnis possimus <br> rsadipisci, illum.</h3> </a></li>
+                <hr>  
+        </ul>
             
-            <li><a href="#">
-                <h3>Lorem, ipsum dolor sit amet consectetur <br> adipisicing elit. Suscipit omnis possimus </h3> <br> rsadipisci, illum.</a></li>
-            <li><a href="#">
-                <h3>Lorem, ipsum dolor sit amet consectetur <br> adipisicing elit. Suscipit omnis possimus </h3> <br> rsadipisci, illum.</a></li>
-            <li><a href="#">
-                <h3>Lorem, ipsum dolor sit amet consectetur <br> adipisicing elit. Suscipit omnis possimus </h3> <br> rsadipisci, illum.</a></li>
-            <li><a href="#">
-                <h3>Lorem, ipsum dolor sit amet consectetur <br> adipisicing elit. Suscipit omnis possimus </h3> <br> rsadipisci, illum.</a></li>
-                
-            </ul>
-    </section>
+    </aside>
     
 </body>
 </html>
